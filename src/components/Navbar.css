@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+}
+
+nav:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.brand {
+    font-size: 1.2em;
+}
+
+.brand span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links_list {
+    display: flex;
+    list-style: none;
+}
+
+.links_list {
+    margin-right: 1em;
+}
+
+.links_list li a {
+    padding: .4em .6em;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.espaço {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
